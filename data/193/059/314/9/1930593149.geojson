@@ -1,0 +1,72 @@
+{
+  "id": 1930593149,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-08-08",
+    "date:inception_upper": "2024-08-08",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-08-08",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2024-08-08",
+    "flysfo:estimated_timestamp": 1723180380,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "DL8886",
+    "flysfo:gate": "",
+    "flysfo:journey": "IAD-SFO",
+    "flysfo:scheduled_timestamp": 1723172160,
+    "flysfo:timestamp": 1723180380,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-77.453702,38.949246",
+    "geom:latitude": 38.283618000000004,
+    "geom:longitude": -99.9123225,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102528817,
+    "sfomuseum:flight_id": "20240808-A-DAL-8886",
+    "sfomuseum:flight_number": [
+      "DAL8886",
+      "DL8886"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1723220001,
+    "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1930593149,
+        "flight_id": 1930593149
+      }
+    ],
+    "wof:id": 1930593149,
+    "wof:involves": [
+      102527513,
+      102528817,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1723220001,
+    "wof:name": "DL8886 (IAD-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -77.453702,
+    38.949246
+  ],
+  "geometry": {"coordinates":[[-77.453702,38.949246],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
