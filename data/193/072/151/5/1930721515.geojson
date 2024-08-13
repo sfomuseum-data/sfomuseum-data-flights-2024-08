@@ -2,10 +2,12 @@
   "id": 1930721515,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-13",
+    "date:cessation_upper": "2024-08-13",
     "date:inception_lower": "2024-08-12",
     "date:inception_upper": "2024-08-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-12",
+    "edtf:cessation": "2024-08-13T02:19:00Z",
+    "edtf:inception": "2024-08-12T11:01:36-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20240812-D-KLM-7221",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N312DU",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO84713200"
+    },
     "wof:country": "US",
     "wof:created": 1723566878,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930721515,
     "wof:involves": [
+      1914601439,
+      1159284613,
+      1813375783,
       102527363,
       102527513,
-      1159284261,
-      1914601439,
-      1159284613
+      1159284261
     ],
-    "wof:lastmodified": 1723566878,
+    "wof:lastmodified": 1723567699,
     "wof:name": "DL1088 (SFO-SLC)",
     "wof:parent_id": 1914601439,
     "wof:placetype": "custom",

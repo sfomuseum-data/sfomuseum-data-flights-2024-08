@@ -2,10 +2,12 @@
   "id": 1930723037,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-13",
+    "date:cessation_upper": "2024-08-13",
     "date:inception_lower": "2024-08-12",
     "date:inception_upper": "2024-08-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-12",
+    "edtf:cessation": "2024-08-13T00:21:00Z",
+    "edtf:inception": "2024-08-12T23:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20240812-D-CCA-7321",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76254",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94973713",
+      "swim:gufi": "KO74953200"
+    },
     "wof:country": "US",
     "wof:created": 1723567375,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930723037,
     "wof:involves": [
+      1159283605,
+      1159289871,
       102533795,
       102527513,
       1159285413,
-      1914600923,
-      1159283605
+      1914600923
     ],
-    "wof:lastmodified": 1723567375,
+    "wof:lastmodified": 1723567714,
     "wof:name": "UA1413 (SFO-LAX)",
     "wof:parent_id": 1914600923,
     "wof:placetype": "custom",
