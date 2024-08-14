@@ -2,10 +2,12 @@
   "id": 1930731019,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-13",
+    "date:cessation_upper": "2024-08-13",
     "date:inception_lower": "2024-08-13",
     "date:inception_upper": "2024-08-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-13",
+    "edtf:cessation": "2024-08-13T19:03:36Z",
+    "edtf:inception": "2024-08-13T17:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20240813-D-AAL-7530",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N516AS",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95032079"
+    },
     "wof:country": "US",
     "wof:created": 1723653219,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930731019,
     "wof:involves": [
+      1914601219,
+      1159283849,
+      1159289871,
       102533269,
       102527513,
-      1159283813,
-      1914601219,
-      1159283849
+      1159283813
     ],
-    "wof:lastmodified": 1723653219,
+    "wof:lastmodified": 1723654278,
     "wof:name": "AS1289 (SFO-SEA)",
     "wof:parent_id": 1914601219,
     "wof:placetype": "custom",

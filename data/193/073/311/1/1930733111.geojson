@@ -2,10 +2,12 @@
   "id": 1930733111,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-13",
-    "date:inception_upper": "2024-08-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-13",
+    "date:cessation_lower": "2024-08-14",
+    "date:cessation_upper": "2024-08-14",
+    "date:inception_lower": "2024-08-14",
+    "date:inception_upper": "2024-08-14",
+    "edtf:cessation": "2024-08-14T04:56:13Z",
+    "edtf:inception": "2024-08-14T00:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:base_flight_id": "20240813-D-ANZ-9142",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N772UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94976126",
+      "swim:gufi": "KO81969300"
+    },
     "wof:country": "US",
     "wof:created": 1723653943,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1914600899,
-      1159283697
+      1159283697,
+      1159289985
     ],
-    "wof:lastmodified": 1723653943,
+    "wof:lastmodified": 1723654300,
     "wof:name": "UA1509 (SFO-HNL)",
     "wof:parent_id": 1914600899,
     "wof:placetype": "custom",

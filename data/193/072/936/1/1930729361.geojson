@@ -2,10 +2,12 @@
   "id": 1930729361,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-13",
-    "date:inception_upper": "2024-08-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-13",
+    "date:cessation_lower": "2024-08-14",
+    "date:cessation_upper": "2024-08-14",
+    "date:inception_lower": "2024-08-14",
+    "date:inception_upper": "2024-08-14",
+    "edtf:cessation": "2024-08-14T16:15:00Z",
+    "edtf:inception": "2024-08-14T03:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541737,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +55,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "94987086"
+    },
     "wof:country": "US",
     "wof:created": 1723652650,
     "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1930729361,
     "wof:involves": [
-      102527513,
-      102541737,
       1159285413,
-      1914601079
+      1914601079,
+      1159289993,
+      102527513,
+      102541737
     ],
-    "wof:lastmodified": 1723652650,
+    "wof:lastmodified": 1723654316,
     "wof:name": "UA862 (HKG-SFO)",
     "wof:parent_id": 1914601079,
     "wof:placetype": "custom",

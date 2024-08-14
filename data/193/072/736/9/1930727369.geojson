@@ -2,10 +2,12 @@
   "id": 1930727369,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-13",
+    "date:cessation_upper": "2024-08-13",
     "date:inception_lower": "2024-08-13",
     "date:inception_upper": "2024-08-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-13",
+    "edtf:cessation": "2024-08-13T02:30:36-07:00",
+    "edtf:inception": "2024-08-13T14:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240813-A-KAL-3083",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N112DU",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95012594",
+      "swim:gufi": "KS48062301"
+    },
     "wof:country": "US",
     "wof:created": 1723651955,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -92,9 +106,10 @@
       102533269,
       1159284261,
       1914601439,
-      1159284625
+      1159284625,
+      1528104583
     ],
-    "wof:lastmodified": 1723651955,
+    "wof:lastmodified": 1723654288,
     "wof:name": "DL1562 (SEA-SFO)",
     "wof:parent_id": 1914601439,
     "wof:placetype": "custom",
