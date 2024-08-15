@@ -2,10 +2,12 @@
   "id": 1930741681,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-14",
+    "date:cessation_upper": "2024-08-14",
     "date:inception_lower": "2024-08-14",
     "date:inception_upper": "2024-08-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-14",
+    "edtf:cessation": "2024-08-14T16:08:00Z",
+    "edtf:inception": "2024-08-14T14:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2024-08-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N661DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "95108612",
+      "swim:gufi": "KO47452400"
+    },
     "wof:country": "US",
     "wof:created": 1723740258,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -49,9 +63,9 @@
       102533269,
       102527513,
       1159284261,
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1723740258,
+    "wof:lastmodified": 1723741358,
     "wof:name": "DL8842 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

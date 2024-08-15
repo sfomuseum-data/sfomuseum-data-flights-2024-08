@@ -2,10 +2,12 @@
   "id": 1930736719,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-14",
+    "date:cessation_upper": "2024-08-14",
     "date:inception_lower": "2024-08-14",
     "date:inception_upper": "2024-08-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-14",
+    "edtf:cessation": "2024-08-14T01:59:00-07:00",
+    "edtf:inception": "2024-08-14T11:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240814-A-QTR-8857",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N528AS",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95096213"
+    },
     "wof:country": "US",
     "wof:created": 1723738239,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930736719,
     "wof:involves": [
+      1159286153,
+      1159289871,
       102527513,
       102533631,
       1159283813,
-      1914601223,
-      1159286153
+      1914601223
     ],
-    "wof:lastmodified": 1723738239,
+    "wof:lastmodified": 1723741355,
     "wof:name": "AS457 (ORD-SFO)",
     "wof:parent_id": 1914601223,
     "wof:placetype": "custom",
