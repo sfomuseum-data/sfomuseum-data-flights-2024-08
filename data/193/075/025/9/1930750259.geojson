@@ -2,10 +2,12 @@
   "id": 1930750259,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-15",
+    "date:cessation_upper": "2024-08-15",
     "date:inception_lower": "2024-08-15",
     "date:inception_upper": "2024-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-15",
+    "edtf:cessation": "2024-08-15T14:16:18-07:00",
+    "edtf:inception": "2024-08-15T23:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240815-A-DLH-7488",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N768UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95261689",
+      "swim:gufi": "KW73201500"
+    },
     "wof:country": "US",
     "wof:created": 1723825620,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -92,9 +106,10 @@
       102528817,
       1159285413,
       1914600849,
-      1159286015
+      1159286015,
+      1159289985
     ],
-    "wof:lastmodified": 1723825620,
+    "wof:lastmodified": 1723827551,
     "wof:name": "UA2344 (IAD-SFO)",
     "wof:parent_id": 1914600849,
     "wof:placetype": "custom",

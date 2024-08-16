@@ -2,10 +2,12 @@
   "id": 1930747169,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-15",
-    "date:inception_upper": "2024-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-15",
+    "date:cessation_lower": "2024-08-15",
+    "date:cessation_upper": "2024-08-15",
+    "date:inception_lower": "2024-08-16",
+    "date:inception_upper": "2024-08-16",
+    "edtf:cessation": "2024-08-15T13:55:35-07:00",
+    "edtf:inception": "2024-08-16T02:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240815-A-ANZ-4843",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS00764600"
+    },
     "wof:country": "US",
     "wof:created": 1723824320,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1930747169,
     "wof:involves": [
-      102527513,
-      102555307,
       1159283597,
       1914601371,
-      1159283697
+      1159283697,
+      1159292085,
+      102527513,
+      102555307
     ],
-    "wof:lastmodified": 1723824320,
+    "wof:lastmodified": 1723827551,
     "wof:name": "AC568 (YVR-SFO)",
     "wof:parent_id": 1914601371,
     "wof:placetype": "custom",

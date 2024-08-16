@@ -2,10 +2,12 @@
   "id": 1930754915,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-15",
-    "date:inception_upper": "2024-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-15",
+    "date:cessation_lower": "2024-08-16",
+    "date:cessation_upper": "2024-08-16",
+    "date:inception_lower": "2024-08-16",
+    "date:inception_upper": "2024-08-16",
+    "edtf:cessation": "2024-08-16T12:17:03Z",
+    "edtf:inception": "2024-08-16T03:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -61.410693,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102556703,
     "sfomuseum:base_flight_id": "20240815-D-DLH-9379",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2136U",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95179498",
+      "swim:gufi": "KO82414500"
+    },
     "wof:country": "US",
     "wof:created": 1723827388,
     "wof:geomhash": "86f41e039827d60bcd1a72801f72cbc2",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930754915,
     "wof:involves": [
+      1159286015,
+      1159289993,
       102556703,
       102527513,
       1159285413,
-      1914601069,
-      1159286015
+      1914601069
     ],
-    "wof:lastmodified": 1723827388,
+    "wof:lastmodified": 1723827588,
     "wof:name": "UA930 (SFO-LHR)",
     "wof:parent_id": 1914601069,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1930752397,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-16",
+    "date:cessation_upper": "2024-08-16",
     "date:inception_lower": "2024-08-15",
     "date:inception_upper": "2024-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-15",
+    "edtf:cessation": "2024-08-16T00:22:43Z",
+    "edtf:inception": "2024-08-15T19:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:base_flight_id": "20240815-D-FJI-5806",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N954AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95238431"
+    },
     "wof:country": "US",
     "wof:created": 1723826484,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930752397,
     "wof:involves": [
+      1914601213,
+      1159283717,
+      1528104577,
       102533997,
       102527513,
-      1159283813,
-      1914601213,
-      1159283717
+      1159283813
     ],
-    "wof:lastmodified": 1723826484,
+    "wof:lastmodified": 1723827572,
     "wof:name": "AS877 (SFO-HNL)",
     "wof:parent_id": 1914601213,
     "wof:placetype": "custom",
