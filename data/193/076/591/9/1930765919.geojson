@@ -2,10 +2,12 @@
   "id": 1930765919,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-17",
+    "date:cessation_upper": "2024-08-17",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-17T20:30:53Z",
+    "edtf:inception": "2024-08-17T10:38:59Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "FJ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 27.502708500000004,
     "iata:airline": "FJ",
     "iata:base_airline": "",
+    "icao:aircraft": "A359",
     "icao:airline": "FJI",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.612893,
     "lbl:longitude": -122.389652,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159283717,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240817-A-AAL-7932",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "DQFAJ",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95398528"
+    },
     "wof:country": "US",
     "wof:created": 1723997685,
     "wof:geomhash": "b214b79a783c652f01bac93c835ba981",
@@ -92,9 +104,10 @@
       102555575,
       1159283717,
       1914601013,
-      1159283849
+      1159283849,
+      1377564293
     ],
-    "wof:lastmodified": 1723997685,
+    "wof:lastmodified": 1723999818,
     "wof:name": "FJ870 (NAN-SFO)",
     "wof:parent_id": 1914601013,
     "wof:placetype": "custom",

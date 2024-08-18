@@ -2,10 +2,12 @@
   "id": 1930770955,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-17",
+    "date:cessation_upper": "2024-08-17",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-17T22:16:00Z",
+    "edtf:inception": "2024-08-17T06:50:48-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20240817-D-ANA-7302",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N890UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95455699",
+      "swim:gufi": "KO58520700"
+    },
     "wof:country": "US",
     "wof:created": 1723999459,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1914600919,
-      1159283875
+      1159283875,
+      1159289407
     ],
-    "wof:lastmodified": 1723999459,
+    "wof:lastmodified": 1723999789,
     "wof:name": "UA1336 (SFO-SLC)",
     "wof:parent_id": 1914600919,
     "wof:placetype": "custom",

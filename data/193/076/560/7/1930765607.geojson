@@ -2,10 +2,12 @@
   "id": 1930765607,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-17",
+    "date:cessation_upper": "2024-08-17",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-17T03:43:24-07:00",
+    "edtf:inception": "2024-08-17T11:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240817-A-ITY-3332",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N711ZX",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95401819",
+      "swim:gufi": "KN38459702"
+    },
     "wof:country": "US",
     "wof:created": 1723997577,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930765607,
     "wof:involves": [
-      102527513,
-      102534365,
       1159284261,
       1914601431,
-      1763699293
+      1763699293,
+      1159289939,
+      102527513,
+      102534365
     ],
-    "wof:lastmodified": 1723997577,
+    "wof:lastmodified": 1723999800,
     "wof:name": "DL668 (JFK-SFO)",
     "wof:parent_id": 1914601431,
     "wof:placetype": "custom",

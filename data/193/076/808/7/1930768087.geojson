@@ -2,10 +2,12 @@
   "id": 1930768087,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-17",
+    "date:cessation_upper": "2024-08-17",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-17T23:40:32Z",
+    "edtf:inception": "2024-08-17T19:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:date": "2024-08-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGJXN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95466369",
+      "swim:gufi": "KO53615700"
+    },
     "wof:country": "US",
     "wof:created": 1723998455,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1930768087,
     "wof:involves": [
+      1813375783,
       102555091,
       102527513,
       1159283597,
       1914601351
     ],
-    "wof:lastmodified": 1723998455,
+    "wof:lastmodified": 1723999807,
     "wof:name": "AC2044 (SFO-YYZ)",
     "wof:parent_id": 1914601351,
     "wof:placetype": "custom",

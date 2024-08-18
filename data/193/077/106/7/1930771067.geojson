@@ -2,10 +2,12 @@
   "id": 1930771067,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-17",
+    "date:cessation_upper": "2024-08-17",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-17T19:58:00Z",
+    "edtf:inception": "2024-08-17T18:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20240817-D-ACA-4254",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N77430",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95439461",
+      "swim:gufi": "KO56378700"
+    },
     "wof:country": "US",
     "wof:created": 1723999498,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930771067,
     "wof:involves": [
+      1159283597,
+      1377564285,
       102555307,
       102527513,
       1159285413,
-      1914601377,
-      1159283597
+      1914601377
     ],
-    "wof:lastmodified": 1723999498,
+    "wof:lastmodified": 1723999791,
     "wof:name": "UA2051 (SFO-YVR)",
     "wof:parent_id": 1914601377,
     "wof:placetype": "custom",

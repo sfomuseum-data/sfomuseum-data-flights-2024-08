@@ -2,10 +2,12 @@
   "id": 1930770685,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-18",
+    "date:cessation_upper": "2024-08-18",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-18T01:18:22Z",
+    "edtf:inception": "2024-08-17T23:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-08-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N407WN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95472970",
+      "swim:gufi": "KO76087700"
+    },
     "wof:country": "US",
     "wof:created": 1723999360,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1930770685,
     "wof:involves": [
+      1159289869,
       102526751,
       102527513,
       1159285591,
       1914601207
     ],
-    "wof:lastmodified": 1723999360,
+    "wof:lastmodified": 1723999786,
     "wof:name": "WN1665 (SFO-PHX)",
     "wof:parent_id": 1914601207,
     "wof:placetype": "custom",

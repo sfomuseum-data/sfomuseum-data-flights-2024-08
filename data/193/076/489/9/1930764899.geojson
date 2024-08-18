@@ -2,10 +2,12 @@
   "id": 1930764899,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-18",
+    "date:cessation_upper": "2024-08-18",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-18T03:09:11Z",
+    "edtf:inception": "2024-08-17T23:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240817-A-AAL-7457",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N298AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95474274",
+      "swim:gufi": "KL06641100"
+    },
     "wof:country": "US",
     "wof:created": 1723997327,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -92,9 +105,10 @@
       102536481,
       1159283813,
       1914601209,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1723997327,
+    "wof:lastmodified": 1723999791,
     "wof:name": "AS1370 (PVR-SFO)",
     "wof:parent_id": 1914601209,
     "wof:placetype": "custom",

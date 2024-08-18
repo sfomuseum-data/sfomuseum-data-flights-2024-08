@@ -2,10 +2,12 @@
   "id": 1930767097,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-17",
+    "date:cessation_upper": "2024-08-17",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-17T14:23:02-07:00",
+    "edtf:inception": "2024-08-17T23:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240817-A-DLH-7488",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N220UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95465919",
+      "swim:gufi": "KW75645700"
+    },
     "wof:country": "US",
     "wof:created": 1723998105,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -92,9 +106,10 @@
       102528817,
       1159285413,
       1914600849,
-      1159286015
+      1159286015,
+      1159289985
     ],
-    "wof:lastmodified": 1723998105,
+    "wof:lastmodified": 1723999826,
     "wof:name": "UA2344 (IAD-SFO)",
     "wof:parent_id": 1914600849,
     "wof:placetype": "custom",

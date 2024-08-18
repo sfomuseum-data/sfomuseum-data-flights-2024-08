@@ -2,10 +2,12 @@
   "id": 1930766087,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-17",
+    "date:cessation_upper": "2024-08-17",
     "date:inception_lower": "2024-08-17",
     "date:inception_upper": "2024-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-17",
+    "edtf:cessation": "2024-08-17T20:11:10Z",
+    "edtf:inception": "2024-08-17T07:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AZ",
     "flysfo:date": "2024-08-17",
@@ -48,6 +50,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95490094"
+    },
     "wof:country": "US",
     "wof:created": 1723997752,
     "wof:geomhash": "83e3cf2d6d5d57bb8b348faf86770f57",
@@ -88,7 +93,7 @@
       1763699293,
       1914601003
     ],
-    "wof:lastmodified": 1723997752,
+    "wof:lastmodified": 1723999818,
     "wof:name": "AZ640 (FCO-SFO)",
     "wof:parent_id": 1914601003,
     "wof:placetype": "custom",
