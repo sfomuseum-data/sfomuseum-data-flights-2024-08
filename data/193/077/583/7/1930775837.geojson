@@ -2,10 +2,12 @@
   "id": 1930775837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-18",
+    "date:cessation_upper": "2024-08-18",
     "date:inception_lower": "2024-08-18",
     "date:inception_upper": "2024-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-18",
+    "edtf:cessation": "2024-08-18T13:50:15Z",
+    "edtf:inception": "2024-08-18T00:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 15.374977500000007,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240818-A-AVA-2054",
@@ -53,6 +57,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95476715",
+      "swim:gufi": "KO75567700"
+    },
     "wof:country": "US",
     "wof:created": 1724084597,
     "wof:geomhash": "25d9e57260b787ba2ae69f7c2107fd81",
@@ -92,9 +100,10 @@
       102557775,
       1159285413,
       1914601061,
-      1159285749
+      1159285749,
+      1159293215
     ],
-    "wof:lastmodified": 1724084597,
+    "wof:lastmodified": 1724086171,
     "wof:name": "UA97 (BNE-SFO)",
     "wof:parent_id": 1914601061,
     "wof:placetype": "custom",

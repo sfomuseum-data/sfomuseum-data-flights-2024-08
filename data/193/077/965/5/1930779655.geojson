@@ -2,10 +2,12 @@
   "id": 1930779655,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-18",
+    "date:cessation_upper": "2024-08-18",
     "date:inception_lower": "2024-08-18",
     "date:inception_upper": "2024-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-18",
+    "edtf:cessation": "2024-08-18T23:48:36Z",
+    "edtf:inception": "2024-08-18T18:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 24.105522999999998,
     "geom:longitude": -103.9582495,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102537565,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37278",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95526882",
+      "swim:gufi": "KO48405100"
+    },
     "wof:country": "US",
     "wof:created": 1724085870,
     "wof:geomhash": "616ffa6e449396b97f6247dc82a6219c",
@@ -86,9 +100,10 @@
       102537565,
       102527513,
       1159285413,
-      1914601069
+      1914601069,
+      1528104575
     ],
-    "wof:lastmodified": 1724085870,
+    "wof:lastmodified": 1724086187,
     "wof:name": "UA2139 (SFO-LIR)",
     "wof:parent_id": 1914601069,
     "wof:placetype": "custom",

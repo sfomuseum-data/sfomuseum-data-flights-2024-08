@@ -2,10 +2,12 @@
   "id": 1930775731,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-18",
+    "date:cessation_upper": "2024-08-18",
     "date:inception_lower": "2024-08-18",
     "date:inception_upper": "2024-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-18",
+    "edtf:cessation": "2024-08-18T00:20:44-07:00",
+    "edtf:inception": "2024-08-18T11:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240818-A-ACA-3640",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N36247",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95495960",
+      "swim:gufi": "KF27922100"
+    },
     "wof:country": "US",
     "wof:created": 1724084562,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930775731,
     "wof:involves": [
+      1914601375,
+      1159283597,
+      1159289871,
       102527513,
       102528541,
-      1159285413,
-      1914601375,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1724084562,
+    "wof:lastmodified": 1724086196,
     "wof:name": "UA657 (DFW-SFO)",
     "wof:parent_id": 1914601375,
     "wof:placetype": "custom",

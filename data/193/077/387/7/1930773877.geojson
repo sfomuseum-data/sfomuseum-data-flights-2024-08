@@ -2,10 +2,12 @@
   "id": 1930773877,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-18",
+    "date:cessation_upper": "2024-08-18",
     "date:inception_lower": "2024-08-18",
     "date:inception_upper": "2024-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-18",
+    "edtf:cessation": "2024-08-18T14:22:37-07:00",
+    "edtf:inception": "2024-08-18T23:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2024-08-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.763746,
     "geom:longitude": -102.532017,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533325,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N652DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "95551733",
+      "swim:gufi": "KR64658100"
+    },
     "wof:country": "US",
     "wof:created": 1724083954,
     "wof:geomhash": "686a8da6ea47962ea59fbfcd75c439b1",
@@ -49,9 +63,9 @@
       102527513,
       102533325,
       1159284261,
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1724083954,
+    "wof:lastmodified": 1724086162,
     "wof:name": "DL8888 (PIE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

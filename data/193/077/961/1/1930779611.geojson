@@ -2,10 +2,12 @@
   "id": 1930779611,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-18",
+    "date:cessation_upper": "2024-08-18",
     "date:inception_lower": "2024-08-18",
     "date:inception_upper": "2024-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-18",
+    "edtf:cessation": "2024-08-18T22:06:00Z",
+    "edtf:inception": "2024-08-18T04:50:16-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.8545915,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525659,
     "sfomuseum:base_flight_id": "20240818-D-ANZ-2935",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N426UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95527676",
+      "swim:gufi": "KO54984100"
+    },
     "wof:country": "US",
     "wof:created": 1724085854,
     "wof:geomhash": "40b0b0eb9a2216ca79008cabcd236dce",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1914600919,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1724085854,
+    "wof:lastmodified": 1724086199,
     "wof:name": "UA1933 (SFO-MSN)",
     "wof:parent_id": 1914600919,
     "wof:placetype": "custom",
