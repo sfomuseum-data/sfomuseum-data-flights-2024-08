@@ -2,10 +2,12 @@
   "id": 1930783171,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-19",
-    "date:inception_upper": "2024-08-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-19",
+    "date:cessation_lower": "2024-08-19",
+    "date:cessation_upper": "2024-08-19",
+    "date:inception_lower": "2024-08-20",
+    "date:inception_upper": "2024-08-20",
+    "edtf:cessation": "2024-08-19T13:20:20-07:00",
+    "edtf:inception": "2024-08-20T02:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2024-08-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.861199,
     "geom:longitude": -119.808415,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530129,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N225BZ",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1930783171,
     "wof:involves": [
-      102527513,
       102530129,
       1763552131,
-      1914601359
+      1914601359,
+      1813375783,
+      102527513
     ],
-    "wof:lastmodified": 1724170867,
+    "wof:lastmodified": 1724173448,
     "wof:name": "MX601 (SBD-SFO)",
     "wof:parent_id": 1914601359,
     "wof:placetype": "custom",

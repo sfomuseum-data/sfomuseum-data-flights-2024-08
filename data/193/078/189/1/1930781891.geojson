@@ -2,10 +2,12 @@
   "id": 1930781891,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-19",
+    "date:cessation_upper": "2024-08-19",
     "date:inception_lower": "2024-08-19",
     "date:inception_upper": "2024-08-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-19",
+    "edtf:cessation": "2024-08-19T07:58:01-07:00",
+    "edtf:inception": "2024-08-19T16:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2024-08-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N237AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95659204"
+    },
     "wof:country": "US",
     "wof:created": 1724170305,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1930781891,
     "wof:involves": [
+      1377564285,
       102527513,
       102534365,
       1159283813,
       1914601223
     ],
-    "wof:lastmodified": 1724170305,
+    "wof:lastmodified": 1724173446,
     "wof:name": "AS9341 (JFK-SFO)",
     "wof:parent_id": 1914601223,
     "wof:placetype": "custom",

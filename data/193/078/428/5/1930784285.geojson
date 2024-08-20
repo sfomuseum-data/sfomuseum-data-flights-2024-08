@@ -2,10 +2,12 @@
   "id": 1930784285,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-19",
+    "date:cessation_upper": "2024-08-19",
     "date:inception_lower": "2024-08-19",
     "date:inception_upper": "2024-08-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-19",
+    "edtf:cessation": "2024-08-19T10:52:49-07:00",
+    "edtf:inception": "2024-08-19T22:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240819-A-ANZ-9415",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N441UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95640129",
+      "swim:gufi": "KU70365200"
+    },
     "wof:country": "US",
     "wof:created": 1724171339,
     "wof:geomhash": "acf2ad4ec949b4135a187e5a7cb03262",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930784285,
     "wof:involves": [
+      1914600847,
+      1159283697,
+      1159292085,
       102527513,
       102530815,
-      1159285413,
-      1914600847,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1724171339,
+    "wof:lastmodified": 1724173425,
     "wof:name": "UA589 (BZN-SFO)",
     "wof:parent_id": 1914600847,
     "wof:placetype": "custom",
