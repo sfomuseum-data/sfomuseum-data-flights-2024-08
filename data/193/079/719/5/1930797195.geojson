@@ -2,10 +2,12 @@
   "id": 1930797195,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-21",
+    "date:cessation_upper": "2024-08-21",
     "date:inception_lower": "2024-08-20",
     "date:inception_upper": "2024-08-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-20",
+    "edtf:cessation": "2024-08-21T07:37:36Z",
+    "edtf:inception": "2024-08-20T22:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -59.914066999999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "BEL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102544459,
     "sfomuseum:base_flight_id": "20240820-D-BEL-9010",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N794UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95727275",
+      "swim:gufi": "KO57625300"
+    },
     "wof:country": "US",
     "wof:created": 1724258971,
     "wof:geomhash": "ad7dd7ece479a882a3440fb19be6ff4c",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1914601089,
-      1377675597
+      1377675597,
+      1159289985
     ],
-    "wof:lastmodified": 1724258971,
+    "wof:lastmodified": 1724259159,
     "wof:name": "UA990 (SFO-CDG)",
     "wof:parent_id": 1914601089,
     "wof:placetype": "custom",

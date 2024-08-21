@@ -2,10 +2,12 @@
   "id": 1930789353,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-20",
+    "date:cessation_upper": "2024-08-20",
     "date:inception_lower": "2024-08-20",
     "date:inception_upper": "2024-08-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-20",
+    "edtf:cessation": "2024-08-20T02:37:05-07:00",
+    "edtf:inception": "2024-08-20T13:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240820-A-GLO-6290",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N552UW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95679457",
+      "swim:gufi": "KF43260300"
+    },
     "wof:country": "US",
     "wof:created": 1724256146,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -92,9 +106,10 @@
       102528541,
       1159283849,
       1914601225,
-      1779770725
+      1779770725,
+      1159289411
     ],
-    "wof:lastmodified": 1724256146,
+    "wof:lastmodified": 1724259131,
     "wof:name": "AA2164 (DFW-SFO)",
     "wof:parent_id": 1914601225,
     "wof:placetype": "custom",
