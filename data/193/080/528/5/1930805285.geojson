@@ -2,10 +2,12 @@
   "id": 1930805285,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-22",
+    "date:cessation_upper": "2024-08-22",
     "date:inception_lower": "2024-08-21",
     "date:inception_upper": "2024-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-21",
+    "edtf:cessation": "2024-08-22T04:52:00Z",
+    "edtf:inception": "2024-08-21T11:14:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531205,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N443UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO82862400"
+    },
     "wof:country": "US",
     "wof:created": 1724345231,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1930805285,
     "wof:involves": [
-      102531205,
       102527513,
       1159285413,
-      1914600847
+      1914600847,
+      1159292085,
+      102531205
     ],
-    "wof:lastmodified": 1724345231,
+    "wof:lastmodified": 1724345539,
     "wof:name": "UA3777 (SFO-MDW)",
     "wof:parent_id": 1914600847,
     "wof:placetype": "custom",

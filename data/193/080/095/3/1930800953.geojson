@@ -2,10 +2,12 @@
   "id": 1930800953,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-21",
-    "date:inception_upper": "2024-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-21",
+    "date:cessation_lower": "2024-08-22",
+    "date:cessation_upper": "2024-08-22",
+    "date:inception_lower": "2024-08-22",
+    "date:inception_upper": "2024-08-22",
+    "edtf:cessation": "2024-08-22T04:42:00Z",
+    "edtf:inception": "2024-08-22T03:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240821-A-ACA-4369",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37351",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95749961"
+    },
     "wof:country": "US",
     "wof:created": 1724343677,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -92,9 +104,10 @@
       102526751,
       1159285413,
       1914601379,
-      1159283597
+      1159283597,
+      1528104575
     ],
-    "wof:lastmodified": 1724343677,
+    "wof:lastmodified": 1724345513,
     "wof:name": "UA1603 (PHX-SFO)",
     "wof:parent_id": 1914601379,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1930805439,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-22",
+    "date:cessation_upper": "2024-08-22",
     "date:inception_lower": "2024-08-21",
     "date:inception_upper": "2024-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-21",
+    "edtf:cessation": "2024-08-22T07:04:22Z",
+    "edtf:inception": "2024-08-21T21:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549057,
     "sfomuseum:base_flight_id": "20240821-D-ANZ-9800",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2251U",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95816792",
+      "swim:gufi": "KO64030400"
+    },
     "wof:country": "US",
     "wof:created": 1724345293,
     "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930805439,
     "wof:involves": [
+      1159289993,
       102549057,
       102527513,
       1159285413,
       1914601069,
       1159283697
     ],
-    "wof:lastmodified": 1724345293,
+    "wof:lastmodified": 1724345540,
     "wof:name": "UA58 (SFO-FRA)",
     "wof:parent_id": 1914601069,
     "wof:placetype": "custom",

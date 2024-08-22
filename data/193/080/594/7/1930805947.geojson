@@ -2,10 +2,12 @@
   "id": 1930805947,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-21",
+    "date:cessation_upper": "2024-08-21",
     "date:inception_lower": "2024-08-21",
     "date:inception_upper": "2024-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-21",
+    "edtf:cessation": "2024-08-21T03:48:00Z",
+    "edtf:inception": "2024-08-21T01:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:date": "2024-08-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
+    "icao:aircraft": "B38M",
     "icao:airline": "WJA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +55,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95743244"
+    },
     "wof:country": "US",
     "wof:created": 1724345478,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1930805947,
     "wof:involves": [
-      102554947,
-      102527513,
       1159285523,
-      1914601215
+      1914601215,
+      1528104575,
+      102554947,
+      102527513
     ],
-    "wof:lastmodified": 1724345478,
+    "wof:lastmodified": 1724345542,
     "wof:name": "WS1523 (SFO-YYC)",
     "wof:parent_id": 1914601215,
     "wof:placetype": "custom",

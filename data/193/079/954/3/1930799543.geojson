@@ -2,10 +2,12 @@
   "id": 1930799543,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-21",
+    "date:cessation_upper": "2024-08-21",
     "date:inception_lower": "2024-08-21",
     "date:inception_upper": "2024-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-21",
+    "edtf:cessation": "2024-08-21T19:07:18Z",
+    "edtf:inception": "2024-08-21T06:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CX",
     "flysfo:date": "2024-08-21",
@@ -48,6 +50,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95754423"
+    },
     "wof:country": "US",
     "wof:created": 1724343183,
     "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
@@ -88,7 +93,7 @@
       1159284127,
       1914601027
     ],
-    "wof:lastmodified": 1724343183,
+    "wof:lastmodified": 1724345525,
     "wof:name": "CX870 (HKG-SFO)",
     "wof:parent_id": 1914601027,
     "wof:placetype": "custom",

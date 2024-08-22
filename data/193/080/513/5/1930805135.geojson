@@ -2,10 +2,12 @@
   "id": 1930805135,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-21",
+    "date:cessation_upper": "2024-08-21",
     "date:inception_lower": "2024-08-21",
     "date:inception_upper": "2024-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-21",
+    "edtf:cessation": "2024-08-21T23:05:00Z",
+    "edtf:inception": "2024-08-21T07:16:47-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20240821-D-ANA-7394",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N87507",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95818853",
+      "swim:gufi": "KO65135400"
+    },
     "wof:country": "US",
     "wof:created": 1724345179,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930805135,
     "wof:involves": [
+      1914601369,
+      1159283875,
+      1159289871,
       102555307,
       102527513,
-      1159285413,
-      1914601369,
-      1159283875
+      1159285413
     ],
-    "wof:lastmodified": 1724345179,
+    "wof:lastmodified": 1724345538,
     "wof:name": "UA204 (SFO-YVR)",
     "wof:parent_id": 1914601369,
     "wof:placetype": "custom",
