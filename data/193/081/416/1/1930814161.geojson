@@ -2,10 +2,12 @@
   "id": 1930814161,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-22",
+    "date:cessation_upper": "2024-08-22",
     "date:inception_lower": "2024-08-22",
     "date:inception_upper": "2024-08-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-22",
+    "edtf:cessation": "2024-08-22T18:57:00Z",
+    "edtf:inception": "2024-08-22T17:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N483UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "95974529",
+      "swim:gufi": "KO50141500"
+    },
     "wof:country": "US",
     "wof:created": 1724431774,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1930814161,
     "wof:involves": [
+      1159292085,
       102527363,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1724431774,
+    "wof:lastmodified": 1724432081,
     "wof:name": "UA3926 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

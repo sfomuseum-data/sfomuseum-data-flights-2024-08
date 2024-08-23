@@ -2,10 +2,12 @@
   "id": 1930810501,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-22",
+    "date:cessation_upper": "2024-08-22",
     "date:inception_lower": "2024-08-22",
     "date:inception_upper": "2024-08-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-22",
+    "edtf:cessation": "2024-08-22T07:32:11-07:00",
+    "edtf:inception": "2024-08-22T19:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "WS",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "WJA",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240822-A-DAL-7054",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGEHF",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95907276"
+    },
     "wof:country": "US",
     "wof:created": 1724430477,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930810501,
     "wof:involves": [
+      1528104575,
       102527513,
       102555307,
       1159285523,
       1914601215,
       1159284261
     ],
-    "wof:lastmodified": 1724430477,
+    "wof:lastmodified": 1724432040,
     "wof:name": "WS1774 (YVR-SFO)",
     "wof:parent_id": 1914601215,
     "wof:placetype": "custom",

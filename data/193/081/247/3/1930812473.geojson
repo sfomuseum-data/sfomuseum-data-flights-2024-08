@@ -2,10 +2,12 @@
   "id": 1930812473,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-23",
+    "date:cessation_upper": "2024-08-23",
     "date:inception_lower": "2024-08-22",
     "date:inception_upper": "2024-08-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-22",
+    "edtf:cessation": "2024-08-23T01:20:08Z",
+    "edtf:inception": "2024-08-22T20:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "CES",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20240822-D-CES-8867",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N522DA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95912167",
+      "swim:gufi": "KO68461500"
+    },
     "wof:country": "US",
     "wof:created": 1724431174,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930812473,
     "wof:involves": [
+      1377564297,
       102530741,
       102527513,
       1159284261,
       1914601433,
       1159284157
     ],
-    "wof:lastmodified": 1724431174,
+    "wof:lastmodified": 1724432062,
     "wof:name": "DL977 (SFO-BOS)",
     "wof:parent_id": 1914601433,
     "wof:placetype": "custom",

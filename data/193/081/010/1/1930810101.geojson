@@ -2,10 +2,12 @@
   "id": 1930810101,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-23",
+    "date:cessation_upper": "2024-08-23",
     "date:inception_lower": "2024-08-22",
     "date:inception_upper": "2024-08-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-22",
+    "edtf:cessation": "2024-08-23T02:11:51Z",
+    "edtf:inception": "2024-08-22T15:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240822-A-ANZ-9803",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95883627"
+    },
     "wof:country": "US",
     "wof:created": 1724430338,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1930810101,
     "wof:involves": [
-      102527513,
-      102549057,
       1159285413,
       1914601087,
-      1159283697
+      1159283697,
+      1159289993,
+      102527513,
+      102549057
     ],
-    "wof:lastmodified": 1724430338,
+    "wof:lastmodified": 1724432037,
     "wof:name": "UA927 (FRA-SFO)",
     "wof:parent_id": 1914601087,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1930809575,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-22",
+    "date:cessation_upper": "2024-08-22",
     "date:inception_lower": "2024-08-22",
     "date:inception_upper": "2024-08-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-22",
+    "edtf:cessation": "2024-08-22T11:22:01-07:00",
+    "edtf:inception": "2024-08-22T23:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240822-A-DLH-7851",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N851UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95928142",
+      "swim:gufi": "KU69207500"
+    },
     "wof:country": "US",
     "wof:created": 1724430155,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930809575,
     "wof:involves": [
+      1159286015,
+      1159289407,
       102527513,
       102527363,
       1159285413,
-      1914601375,
-      1159286015
+      1914601375
     ],
-    "wof:lastmodified": 1724430155,
+    "wof:lastmodified": 1724432073,
     "wof:name": "UA1681 (SLC-SFO)",
     "wof:parent_id": 1914601375,
     "wof:placetype": "custom",

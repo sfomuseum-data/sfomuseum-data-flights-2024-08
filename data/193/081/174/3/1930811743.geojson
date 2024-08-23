@@ -2,10 +2,12 @@
   "id": 1930811743,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-22",
+    "date:cessation_upper": "2024-08-22",
     "date:inception_lower": "2024-08-22",
     "date:inception_upper": "2024-08-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-22",
+    "edtf:cessation": "2024-08-22T17:49:00Z",
+    "edtf:inception": "2024-08-22T02:07:02-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "JAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20240822-D-JAL-6339",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N973AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95880338",
+      "swim:gufi": "KO50469500"
+    },
     "wof:country": "US",
     "wof:created": 1724430916,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930811743,
     "wof:involves": [
+      1914601209,
+      1159284563,
+      1528104577,
       102533269,
       102527513,
-      1159283813,
-      1914601209,
-      1159284563
+      1159283813
     ],
-    "wof:lastmodified": 1724430916,
+    "wof:lastmodified": 1724432054,
     "wof:name": "AS1123 (SFO-SEA)",
     "wof:parent_id": 1914601209,
     "wof:placetype": "custom",
