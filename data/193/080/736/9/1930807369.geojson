@@ -1,0 +1,72 @@
+{
+  "id": 1930807369,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-08-22",
+    "date:inception_upper": "2024-08-22",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-08-22",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2024-08-22",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AS3414",
+    "flysfo:gate": "",
+    "flysfo:journey": "RDM-SFO",
+    "flysfo:scheduled_timestamp": 1724366760,
+    "flysfo:timestamp": 1724366760,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-121.157137,44.259811",
+    "geom:latitude": 40.9389005,
+    "geom:longitude": -121.76404,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102530507,
+    "sfomuseum:flight_id": "20240822-A-ASA-3414",
+    "sfomuseum:flight_number": [
+      "ASA3414",
+      "AS3414"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1724429384,
+    "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1930807369,
+        "flight_id": 1930807369
+      }
+    ],
+    "wof:id": 1930807369,
+    "wof:involves": [
+      102527513,
+      102530507,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1724429384,
+    "wof:name": "AS3414 (RDM-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -121.157137,
+    44.259811
+  ],
+  "geometry": {"coordinates":[[-121.157137,44.259811],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
