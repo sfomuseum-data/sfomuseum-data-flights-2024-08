@@ -2,10 +2,12 @@
   "id": 1930816625,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-23",
+    "date:cessation_upper": "2024-08-23",
     "date:inception_lower": "2024-08-23",
     "date:inception_upper": "2024-08-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-23",
+    "edtf:cessation": "2024-08-23T07:40:29-07:00",
+    "edtf:inception": "2024-08-23T10:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DE",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "DE",
     "iata:base_airline": "",
+    "icao:aircraft": "A339",
     "icao:airline": "CFG",
     "icao:base_airline": "ASA",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1159284193,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240823-A-ASA-8832",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "DANRG",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "95958090"
+    },
     "wof:country": "US",
     "wof:created": 1724515954,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930816625,
     "wof:involves": [
+      1393786509,
       102527513,
       102549057,
       1159284193,
       1914601009,
       1159283813
     ],
-    "wof:lastmodified": 1724515954,
+    "wof:lastmodified": 1724518452,
     "wof:name": "DE2092 (FRA-SFO)",
     "wof:parent_id": 1914601009,
     "wof:placetype": "custom",

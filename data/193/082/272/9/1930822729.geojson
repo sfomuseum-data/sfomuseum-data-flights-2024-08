@@ -2,10 +2,12 @@
   "id": 1930822729,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-23",
+    "date:cessation_upper": "2024-08-23",
     "date:inception_lower": "2024-08-23",
     "date:inception_upper": "2024-08-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-23",
+    "edtf:cessation": "2024-08-23T23:36:00Z",
+    "edtf:inception": "2024-08-23T06:04:31-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N850UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "96078455",
+      "swim:gufi": "KO60421600"
+    },
     "wof:country": "US",
     "wof:created": 1724518177,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1930822729,
     "wof:involves": [
+      1159289407,
       102533631,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1724518177,
+    "wof:lastmodified": 1724518463,
     "wof:name": "UA3901 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
