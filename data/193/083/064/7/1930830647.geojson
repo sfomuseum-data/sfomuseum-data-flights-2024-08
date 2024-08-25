@@ -2,10 +2,12 @@
   "id": 1930830647,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-24",
+    "date:cessation_upper": "2024-08-24",
     "date:inception_lower": "2024-08-24",
     "date:inception_upper": "2024-08-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-24",
+    "edtf:cessation": "2024-08-24T20:58:14Z",
+    "edtf:inception": "2024-08-24T16:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27269",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96095275",
+      "swim:gufi": "KO48317700"
+    },
     "wof:country": "US",
     "wof:created": 1724603982,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -86,9 +100,10 @@
       102531979,
       102527513,
       1159285413,
-      1914600867
+      1914600867,
+      1528104575
     ],
-    "wof:lastmodified": 1724603982,
+    "wof:lastmodified": 1724604215,
     "wof:name": "UA391 (SFO-ANC)",
     "wof:parent_id": 1914600867,
     "wof:placetype": "custom",
