@@ -2,10 +2,12 @@
   "id": 1930833833,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-25",
+    "date:cessation_upper": "2024-08-25",
     "date:inception_lower": "2024-08-25",
     "date:inception_upper": "2024-08-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-25",
+    "edtf:cessation": "2024-08-25T04:33:37-07:00",
+    "edtf:inception": "2024-08-25T09:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "JL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 9.012156999999995,
     "iata:airline": "JL",
     "iata:base_airline": "",
+    "icao:aircraft": "B788",
     "icao:airline": "JAL",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159284563,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240825-A-AAL-8409",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "JA837J",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96161617"
+    },
     "wof:country": "US",
     "wof:created": 1724688993,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -92,9 +105,10 @@
       102541685,
       1159284563,
       1914601003,
-      1159283849
+      1159283849,
+      1159289995
     ],
-    "wof:lastmodified": 1724688993,
+    "wof:lastmodified": 1724691134,
     "wof:name": "JL58 (NRT-SFO)",
     "wof:parent_id": 1914601003,
     "wof:placetype": "custom",

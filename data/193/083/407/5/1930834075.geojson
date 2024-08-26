@@ -2,10 +2,12 @@
   "id": 1930834075,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-26",
+    "date:cessation_upper": "2024-08-26",
     "date:inception_lower": "2024-08-25",
     "date:inception_upper": "2024-08-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-25",
+    "edtf:cessation": "2024-08-26T00:16:00Z",
+    "edtf:inception": "2024-08-25T23:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2024-08-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.861199,
     "geom:longitude": -119.808415,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530129,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N216BZ",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +56,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96227966"
+    },
     "wof:country": "US",
     "wof:created": 1724689079,
     "wof:geomhash": "6d8f05e22cdd419a749a10658572882e",
@@ -86,9 +97,10 @@
       102527513,
       102530129,
       1763552131,
-      1914601359
+      1914601359,
+      1813375783
     ],
-    "wof:lastmodified": 1724689079,
+    "wof:lastmodified": 1724691135,
     "wof:name": "MX601 (SBD-SFO)",
     "wof:parent_id": 1914601359,
     "wof:placetype": "custom",

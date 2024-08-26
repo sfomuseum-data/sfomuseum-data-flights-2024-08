@@ -2,10 +2,12 @@
   "id": 1930834465,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-25",
+    "date:cessation_upper": "2024-08-25",
     "date:inception_lower": "2024-08-25",
     "date:inception_upper": "2024-08-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-25",
+    "edtf:cessation": "2024-08-25T04:27:57-07:00",
+    "edtf:inception": "2024-08-25T17:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-08-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N405WN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96195166",
+      "swim:gufi": "KL52079100"
+    },
     "wof:country": "US",
     "wof:created": 1724689214,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -86,9 +99,10 @@
       102527513,
       102528997,
       1159285591,
-      1914601207
+      1914601207,
+      1159289869
     ],
-    "wof:lastmodified": 1724689214,
+    "wof:lastmodified": 1724691136,
     "wof:name": "WN1090 (SAN-SFO)",
     "wof:parent_id": 1914601207,
     "wof:placetype": "custom",
