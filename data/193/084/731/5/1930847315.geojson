@@ -2,10 +2,12 @@
   "id": 1930847315,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-26",
+    "date:cessation_upper": "2024-08-26",
     "date:inception_lower": "2024-08-26",
     "date:inception_upper": "2024-08-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-26",
+    "edtf:cessation": "2024-08-26T11:12:47Z",
+    "edtf:inception": "2024-08-26T00:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "TP",
     "flysfo:date": "2024-08-26",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "96230302"
+    },
     "wof:country": "US",
     "wof:created": 1724784142,
     "wof:geomhash": "d52bb0a5cfa06eebb6a938b29d78a44d",
@@ -51,7 +56,7 @@
       1159285271,
       -1
     ],
-    "wof:lastmodified": 1724784142,
+    "wof:lastmodified": 1724784589,
     "wof:name": "TP238 (SFO-LIS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

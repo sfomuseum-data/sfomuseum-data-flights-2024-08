@@ -2,10 +2,12 @@
   "id": 1930844359,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-26",
+    "date:cessation_upper": "2024-08-26",
     "date:inception_lower": "2024-08-26",
     "date:inception_upper": "2024-08-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-26",
+    "edtf:cessation": "2024-08-26T22:31:19Z",
+    "edtf:inception": "2024-08-26T19:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20240826-D-BAW-5600",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N435AN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96296855",
+      "swim:gufi": "KO64867200"
+    },
     "wof:country": "US",
     "wof:created": 1724783186,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -92,9 +106,10 @@
       102527513,
       1159283849,
       1914601225,
-      1159284021
+      1159284021,
+      1377564297
     ],
-    "wof:lastmodified": 1724783186,
+    "wof:lastmodified": 1724784578,
     "wof:name": "AA1414 (SFO-DFW)",
     "wof:parent_id": 1914601225,
     "wof:placetype": "custom",
