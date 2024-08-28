@@ -2,10 +2,12 @@
   "id": 1930856045,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-27",
+    "date:cessation_upper": "2024-08-27",
     "date:inception_lower": "2024-08-27",
     "date:inception_upper": "2024-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-27",
+    "edtf:cessation": "2024-08-27T17:58:00Z",
+    "edtf:inception": "2024-08-27T16:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533591,
     "sfomuseum:base_flight_id": "20240827-D-ACA-4126",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N424UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96366345",
+      "swim:gufi": "KO46673300"
+    },
     "wof:country": "US",
     "wof:created": 1724863433,
     "wof:geomhash": "e84c3ec216fbaf9440bbf99d412a1253",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930856045,
     "wof:involves": [
-      102533591,
-      102527513,
       1159285413,
       1914601063,
-      1159283597
+      1159283597,
+      1159292085,
+      102533591,
+      102527513
     ],
-    "wof:lastmodified": 1724863433,
+    "wof:lastmodified": 1724863849,
     "wof:name": "UA1160 (SFO-PSP)",
     "wof:parent_id": 1914601063,
     "wof:placetype": "custom",

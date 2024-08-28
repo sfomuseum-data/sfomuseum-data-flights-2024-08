@@ -2,10 +2,12 @@
   "id": 1930852225,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-28",
+    "date:cessation_upper": "2024-08-28",
     "date:inception_lower": "2024-08-27",
     "date:inception_upper": "2024-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-27",
+    "edtf:cessation": "2024-08-28T00:06:28Z",
+    "edtf:inception": "2024-08-27T21:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240827-A-ANZ-9884",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96400951"
+    },
     "wof:country": "US",
     "wof:created": 1724862128,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1930852225,
     "wof:involves": [
+      1159289871,
       102527513,
       102554947,
       1159285413,
       1914601375,
       1159283697
     ],
-    "wof:lastmodified": 1724862128,
+    "wof:lastmodified": 1724863862,
     "wof:name": "UA211 (YYC-SFO)",
     "wof:parent_id": 1914601375,
     "wof:placetype": "custom",

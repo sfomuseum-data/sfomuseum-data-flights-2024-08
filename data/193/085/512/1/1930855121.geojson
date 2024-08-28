@@ -2,10 +2,12 @@
   "id": 1930855121,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-27",
+    "date:cessation_upper": "2024-08-27",
     "date:inception_lower": "2024-08-27",
     "date:inception_upper": "2024-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-27",
+    "edtf:cessation": "2024-08-27T20:16:32Z",
+    "edtf:inception": "2024-08-27T15:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "HA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "HA",
     "iata:base_airline": "",
+    "icao:aircraft": "A332",
     "icao:airline": "HAL",
     "icao:base_airline": "JBU",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284489,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:base_flight_id": "20240827-D-JBU-5811",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N375HA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96360526"
+    },
     "wof:country": "US",
     "wof:created": 1724863111,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930855121,
     "wof:involves": [
-      102533997,
       102527513,
       1159284489,
       1914601015,
-      1159284583
+      1159284583,
+      1159289421,
+      102533997
     ],
-    "wof:lastmodified": 1724863111,
+    "wof:lastmodified": 1724863870,
     "wof:name": "HA11 (SFO-HNL)",
     "wof:parent_id": 1914601015,
     "wof:placetype": "custom",

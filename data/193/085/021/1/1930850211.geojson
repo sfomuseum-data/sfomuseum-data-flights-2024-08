@@ -2,10 +2,12 @@
   "id": 1930850211,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-27",
-    "date:inception_upper": "2024-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-27",
+    "date:cessation_lower": "2024-08-28",
+    "date:cessation_upper": "2024-08-28",
+    "date:inception_lower": "2024-08-28",
+    "date:inception_upper": "2024-08-28",
+    "edtf:cessation": "2024-08-28T06:30:47Z",
+    "edtf:inception": "2024-08-28T02:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96329293"
+    },
     "wof:country": "US",
     "wof:created": 1724861423,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -94,7 +102,7 @@
       1914601213,
       1159283717
     ],
-    "wof:lastmodified": 1724861423,
+    "wof:lastmodified": 1724863819,
     "wof:name": "AS878 (OGG-SFO)",
     "wof:parent_id": 1914601213,
     "wof:placetype": "custom",
