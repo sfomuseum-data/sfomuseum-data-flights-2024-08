@@ -2,10 +2,12 @@
   "id": 1930861201,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-28",
+    "date:cessation_upper": "2024-08-28",
     "date:inception_lower": "2024-08-28",
     "date:inception_upper": "2024-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-28",
+    "edtf:cessation": "2024-08-28T19:19:36Z",
+    "edtf:inception": "2024-08-28T15:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +56,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96518751",
+      "swim:gufi": "KL64399400"
+    },
     "wof:country": "US",
     "wof:created": 1724948510,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1930861201,
     "wof:involves": [
+      1914601069,
+      1159292085,
       102527513,
       102536579,
-      1159285413,
-      1914601069
+      1159285413
     ],
-    "wof:lastmodified": 1724948510,
+    "wof:lastmodified": 1724950139,
     "wof:name": "UA3035 (MEX-SFO)",
     "wof:parent_id": 1914601069,
     "wof:placetype": "custom",

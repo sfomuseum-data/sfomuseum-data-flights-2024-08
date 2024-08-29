@@ -2,10 +2,12 @@
   "id": 1930865225,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-28",
+    "date:cessation_upper": "2024-08-28",
     "date:inception_lower": "2024-08-28",
     "date:inception_upper": "2024-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-28",
+    "edtf:cessation": "2024-08-28T07:41:00Z",
+    "edtf:inception": "2024-08-28T06:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:base_flight_id": "20240828-D-ACA-4122",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N429UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96425860"
+    },
     "wof:country": "US",
     "wof:created": 1724949797,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1930865225,
     "wof:involves": [
-      102533575,
       102527513,
       1159285413,
       1914600859,
-      1159283597
+      1159283597,
+      1159292085,
+      102533575
     ],
-    "wof:lastmodified": 1724949797,
+    "wof:lastmodified": 1724950158,
     "wof:name": "UA2090 (SFO-ONT)",
     "wof:parent_id": 1914600859,
     "wof:placetype": "custom",

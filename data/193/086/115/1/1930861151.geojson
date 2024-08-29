@@ -2,10 +2,12 @@
   "id": 1930861151,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-28",
-    "date:inception_upper": "2024-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-28",
+    "date:cessation_lower": "2024-08-29",
+    "date:cessation_upper": "2024-08-29",
+    "date:inception_lower": "2024-08-29",
+    "date:inception_upper": "2024-08-29",
+    "edtf:cessation": "2024-08-29T04:38:00Z",
+    "edtf:inception": "2024-08-29T02:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240828-A-ANZ-9877",
@@ -53,6 +57,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96421382"
+    },
     "wof:country": "US",
     "wof:created": 1724948494,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 1930861151,
     "wof:involves": [
+      1914600935,
+      1159283697,
+      1528104575,
       102527513,
       102555307,
-      1159285413,
-      1914600935,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1724948494,
+    "wof:lastmodified": 1724950139,
     "wof:name": "UA2423 (YVR-SFO)",
     "wof:parent_id": 1914600935,
     "wof:placetype": "custom",

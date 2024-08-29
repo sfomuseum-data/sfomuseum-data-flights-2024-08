@@ -2,10 +2,12 @@
   "id": 1930861051,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-28",
+    "date:cessation_upper": "2024-08-28",
     "date:inception_lower": "2024-08-28",
     "date:inception_upper": "2024-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-28",
+    "edtf:cessation": "2024-08-28T03:08:00Z",
+    "edtf:inception": "2024-08-28T02:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240828-A-ACA-3959",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N76533",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96420141",
+      "swim:gufi": "KL81433300"
+    },
     "wof:country": "US",
     "wof:created": 1724948459,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1930861051,
     "wof:involves": [
+      1159289871,
       102527513,
       1746879083,
       1159285413,
       1914600851,
       1159283597
     ],
-    "wof:lastmodified": 1724948459,
+    "wof:lastmodified": 1724950137,
     "wof:name": "UA1971 (BUR-SFO)",
     "wof:parent_id": 1914600851,
     "wof:placetype": "custom",

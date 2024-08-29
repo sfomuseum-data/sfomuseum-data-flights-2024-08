@@ -2,10 +2,12 @@
   "id": 1930865289,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-29",
+    "date:cessation_upper": "2024-08-29",
     "date:inception_lower": "2024-08-28",
     "date:inception_upper": "2024-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-28",
+    "edtf:cessation": "2024-08-29T01:10:22Z",
+    "edtf:inception": "2024-08-28T23:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20240828-D-ANZ-9406",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37506",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96503541"
+    },
     "wof:country": "US",
     "wof:created": 1724949818,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +104,10 @@
       102527513,
       1159285413,
       1914600937,
-      1159283697
+      1159283697,
+      1528104577
     ],
-    "wof:lastmodified": 1724949818,
+    "wof:lastmodified": 1724950158,
     "wof:name": "UA2422 (SFO-SEA)",
     "wof:parent_id": 1914600937,
     "wof:placetype": "custom",

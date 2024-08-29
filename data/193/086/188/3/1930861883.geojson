@@ -2,10 +2,12 @@
   "id": 1930861883,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-28",
+    "date:cessation_upper": "2024-08-28",
     "date:inception_lower": "2024-08-28",
     "date:inception_upper": "2024-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-28",
+    "edtf:cessation": "2024-08-28T21:01:07Z",
+    "edtf:inception": "2024-08-28T19:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -39,6 +41,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +59,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96478107"
+    },
     "wof:country": "US",
     "wof:created": 1724948741,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -94,7 +103,7 @@
       1914601215,
       1159284261
     ],
-    "wof:lastmodified": 1724948741,
+    "wof:lastmodified": 1724950149,
     "wof:name": "WS1774 (YVR-SFO)",
     "wof:parent_id": 1914601215,
     "wof:placetype": "custom",

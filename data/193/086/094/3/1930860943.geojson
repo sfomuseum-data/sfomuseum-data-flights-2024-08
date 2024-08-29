@@ -2,10 +2,12 @@
   "id": 1930860943,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-28",
-    "date:inception_upper": "2024-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-28",
+    "date:cessation_lower": "2024-08-29",
+    "date:cessation_upper": "2024-08-29",
+    "date:inception_lower": "2024-08-29",
+    "date:inception_upper": "2024-08-29",
+    "edtf:cessation": "2024-08-29T03:50:00Z",
+    "edtf:inception": "2024-08-29T00:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240828-A-ANZ-9820",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +60,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96408967",
+      "swim:gufi": "KL74196400"
+    },
     "wof:country": "US",
     "wof:created": 1724948413,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1930860943,
     "wof:involves": [
+      1159292085,
       102527513,
       102536579,
       1159285413,
       1914601075,
       1159283697
     ],
-    "wof:lastmodified": 1724948413,
+    "wof:lastmodified": 1724950135,
     "wof:name": "UA1272 (MEX-SFO)",
     "wof:parent_id": 1914601075,
     "wof:placetype": "custom",

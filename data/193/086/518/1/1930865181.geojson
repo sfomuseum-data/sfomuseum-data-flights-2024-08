@@ -2,10 +2,12 @@
   "id": 1930865181,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-29",
+    "date:cessation_upper": "2024-08-29",
     "date:inception_lower": "2024-08-28",
     "date:inception_upper": "2024-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-28",
+    "edtf:cessation": "2024-08-29T07:46:11Z",
+    "edtf:inception": "2024-08-28T21:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -55.2970675,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549067,
     "sfomuseum:base_flight_id": "20240828-D-DLH-7996",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N784UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96487318",
+      "swim:gufi": "KO63947400"
+    },
     "wof:country": "US",
     "wof:created": 1724949783,
     "wof:geomhash": "d9a5d9d800d6bc92413ff3768040f8da",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930865181,
     "wof:involves": [
-      102549067,
       102527513,
       1159285413,
       1914600881,
-      1159286015
+      1159286015,
+      1159289985,
+      102549067
     ],
-    "wof:lastmodified": 1724949783,
+    "wof:lastmodified": 1724950171,
     "wof:name": "UA194 (SFO-MUC)",
     "wof:parent_id": 1914600881,
     "wof:placetype": "custom",
