@@ -2,10 +2,12 @@
   "id": 1930868785,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-29",
+    "date:cessation_upper": "2024-08-29",
     "date:inception_lower": "2024-08-29",
     "date:inception_upper": "2024-08-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-29",
+    "edtf:cessation": "2024-08-29T04:59:38Z",
+    "edtf:inception": "2024-08-29T00:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "HA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "HA",
     "iata:base_airline": "",
+    "icao:aircraft": "A332",
     "icao:airline": "HAL",
     "icao:base_airline": "JBU",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284489,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240829-A-JBU-5812",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96506150"
+    },
     "wof:country": "US",
     "wof:created": 1725034580,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -92,9 +103,10 @@
       102533997,
       1159284489,
       1914601015,
-      1159284583
+      1159284583,
+      1159289421
     ],
-    "wof:lastmodified": 1725034580,
+    "wof:lastmodified": 1725036739,
     "wof:name": "HA12 (HNL-SFO)",
     "wof:parent_id": 1914601015,
     "wof:placetype": "custom",

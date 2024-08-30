@@ -2,10 +2,12 @@
   "id": 1930870407,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-30",
+    "date:cessation_upper": "2024-08-30",
     "date:inception_lower": "2024-08-29",
     "date:inception_upper": "2024-08-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-29",
+    "edtf:cessation": "2024-08-30T01:39:56Z",
+    "edtf:inception": "2024-08-29T15:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -61.410693,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240829-A-DLH-8572",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96547981"
+    },
     "wof:country": "US",
     "wof:created": 1725035119,
     "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
@@ -92,9 +103,10 @@
       102556703,
       1159285413,
       1914601085,
-      1159286015
+      1159286015,
+      1159289993
     ],
-    "wof:lastmodified": 1725035119,
+    "wof:lastmodified": 1725036716,
     "wof:name": "UA939 (LHR-SFO)",
     "wof:parent_id": 1914601085,
     "wof:placetype": "custom",

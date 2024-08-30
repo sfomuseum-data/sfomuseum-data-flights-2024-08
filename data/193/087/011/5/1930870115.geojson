@@ -2,10 +2,12 @@
   "id": 1930870115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-29",
+    "date:cessation_upper": "2024-08-29",
     "date:inception_lower": "2024-08-29",
     "date:inception_upper": "2024-08-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-29",
+    "edtf:cessation": "2024-08-29T19:48:00Z",
+    "edtf:inception": "2024-08-29T10:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.5860375,
     "geom:longitude": 8.702347499999995,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541591,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +55,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96523064",
+      "swim:gufi": "KO65530500"
+    },
     "wof:country": "US",
     "wof:created": 1725035023,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1930870115,
     "wof:involves": [
-      102527513,
       102541591,
       1159285413,
-      1914601069
+      1914601069,
+      1159289985,
+      102527513
     ],
-    "wof:lastmodified": 1725035023,
+    "wof:lastmodified": 1725036712,
     "wof:name": "UA3900 (HND-SFO)",
     "wof:parent_id": 1914601069,
     "wof:placetype": "custom",

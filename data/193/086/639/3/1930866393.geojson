@@ -2,10 +2,12 @@
   "id": 1930866393,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-08-29",
-    "date:inception_upper": "2024-08-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-29",
+    "date:cessation_lower": "2024-08-30",
+    "date:cessation_upper": "2024-08-30",
+    "date:inception_lower": "2024-08-30",
+    "date:inception_upper": "2024-08-30",
+    "edtf:cessation": "2024-08-30T09:48:00Z",
+    "edtf:inception": "2024-08-30T05:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240829-A-BAW-5440",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N153UW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96596418",
+      "swim:gufi": "KM04942600"
+    },
     "wof:country": "US",
     "wof:created": 1725033774,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1930866393,
     "wof:involves": [
-      102527513,
-      102529403,
       1159283849,
       1914601225,
-      1159284021
+      1159284021,
+      1159289411,
+      102527513,
+      102529403
     ],
-    "wof:lastmodified": 1725033774,
+    "wof:lastmodified": 1725036710,
     "wof:name": "AA1980 (PHL-SFO)",
     "wof:parent_id": 1914601225,
     "wof:placetype": "custom",

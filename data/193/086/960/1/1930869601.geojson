@@ -2,10 +2,12 @@
   "id": 1930869601,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-29",
+    "date:cessation_upper": "2024-08-29",
     "date:inception_lower": "2024-08-29",
     "date:inception_upper": "2024-08-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-29",
+    "edtf:cessation": "2024-08-29T23:10:00Z",
+    "edtf:inception": "2024-08-29T21:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-08-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527529,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "96696924",
+      "swim:gufi": "KO66466500"
+    },
     "wof:country": "US",
     "wof:created": 1725034849,
     "wof:geomhash": "5aa704d308ccde2b747329ebb6ffcf42",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1930869601,
     "wof:involves": [
+      1528104575,
       102527513,
       102527529,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1725034849,
+    "wof:lastmodified": 1725036746,
     "wof:name": "WN4394 (SJC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
