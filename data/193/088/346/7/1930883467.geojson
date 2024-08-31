@@ -2,10 +2,12 @@
   "id": 1930883467,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-30",
+    "date:cessation_upper": "2024-08-30",
     "date:inception_lower": "2024-08-30",
     "date:inception_upper": "2024-08-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-30",
+    "edtf:cessation": "2024-08-30T21:53:10Z",
+    "edtf:inception": "2024-08-30T20:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20240830-D-ANZ-9599",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N76269",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96682676",
+      "swim:gufi": "KO59294600"
+    },
     "wof:country": "US",
     "wof:created": 1725122817,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1930883467,
     "wof:involves": [
+      1159289871,
       102528997,
       102527513,
       1159285413,
       1914601367,
       1159283697
     ],
-    "wof:lastmodified": 1725122817,
+    "wof:lastmodified": 1725123223,
     "wof:name": "UA2041 (SFO-SAN)",
     "wof:parent_id": 1914601367,
     "wof:placetype": "custom",

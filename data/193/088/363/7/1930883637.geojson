@@ -2,10 +2,12 @@
   "id": 1930883637,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-30",
+    "date:cessation_upper": "2024-08-30",
     "date:inception_lower": "2024-08-30",
     "date:inception_upper": "2024-08-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-30",
+    "edtf:cessation": "2024-08-30T15:02:00Z",
+    "edtf:inception": "2024-08-30T00:00:02-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N768UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96721847",
+      "swim:gufi": "KO41233600"
+    },
     "wof:country": "US",
     "wof:created": 1725122879,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -86,9 +100,10 @@
       102528997,
       102527513,
       1159285413,
-      1914601065
+      1914601065,
+      1159289985
     ],
-    "wof:lastmodified": 1725122879,
+    "wof:lastmodified": 1725123227,
     "wof:name": "UA3934 (SFO-SAN)",
     "wof:parent_id": 1914601065,
     "wof:placetype": "custom",
