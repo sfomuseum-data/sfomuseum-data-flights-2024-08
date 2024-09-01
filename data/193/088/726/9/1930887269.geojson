@@ -2,10 +2,12 @@
   "id": 1930887269,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-31",
+    "date:cessation_upper": "2024-08-31",
     "date:inception_lower": "2024-08-31",
     "date:inception_upper": "2024-08-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-31",
+    "edtf:cessation": "2024-08-31T20:14:00Z",
+    "edtf:inception": "2024-08-31T10:37:38Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "FJ",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96728174"
+    },
     "wof:country": "US",
     "wof:created": 1725207388,
     "wof:geomhash": "b214b79a783c652f01bac93c835ba981",
@@ -94,7 +102,7 @@
       1914601029,
       1159283849
     ],
-    "wof:lastmodified": 1725207388,
+    "wof:lastmodified": 1725209521,
     "wof:name": "FJ870 (NAN-SFO)",
     "wof:parent_id": 1914601029,
     "wof:placetype": "custom",

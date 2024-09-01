@@ -2,10 +2,12 @@
   "id": 1930888403,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-31",
+    "date:cessation_upper": "2024-08-31",
     "date:inception_lower": "2024-08-31",
     "date:inception_upper": "2024-08-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-31",
+    "edtf:cessation": "2024-08-31T19:58:00Z",
+    "edtf:inception": "2024-08-31T07:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-08-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 26.067878999999998,
     "geom:longitude": -0.6778954999999982,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102553219,
@@ -48,6 +52,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96722216",
+      "swim:gufi": "KO66484700"
+    },
     "wof:country": "US",
     "wof:created": 1725207838,
     "wof:geomhash": "5a4fd58c6aeb5f6f6368af3561d0b192",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1930888403,
     "wof:involves": [
-      102527513,
       102553219,
       1159285413,
-      1914601071
+      1914601071,
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1725207838,
+    "wof:lastmodified": 1725209536,
     "wof:name": "UA3042 (MNL-SFO)",
     "wof:parent_id": 1914601071,
     "wof:placetype": "custom",

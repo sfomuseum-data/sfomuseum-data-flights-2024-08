@@ -2,10 +2,12 @@
   "id": 1930887939,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-01",
+    "date:cessation_upper": "2024-09-01",
     "date:inception_lower": "2024-08-31",
     "date:inception_upper": "2024-08-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-31",
+    "edtf:cessation": "2024-09-01T02:59:53Z",
+    "edtf:inception": "2024-08-31T23:06:53Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-08-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N459WN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96784042",
+      "swim:gufi": "KG80523700"
+    },
     "wof:country": "US",
     "wof:created": 1725207658,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1930887939,
     "wof:involves": [
-      102527513,
-      102531205,
       1159285591,
-      1914601211
+      1914601211,
+      1159289869,
+      102527513,
+      102531205
     ],
-    "wof:lastmodified": 1725207658,
+    "wof:lastmodified": 1725209529,
     "wof:name": "WN1461 (MDW-SFO)",
     "wof:parent_id": 1914601211,
     "wof:placetype": "custom",

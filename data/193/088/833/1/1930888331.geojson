@@ -2,10 +2,12 @@
   "id": 1930888331,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-08-31",
+    "date:cessation_upper": "2024-08-31",
     "date:inception_lower": "2024-08-31",
     "date:inception_upper": "2024-08-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-08-31",
+    "edtf:cessation": "2024-08-31T18:11:35Z",
+    "edtf:inception": "2024-08-31T13:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240831-A-CCA-7285",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27267",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96739779",
+      "swim:gufi": "KJ40311700"
+    },
     "wof:country": "US",
     "wof:created": 1725207809,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930888331,
     "wof:involves": [
+      1528104575,
       102527513,
       102533657,
       1159285413,
       1914600923,
       1159283605
     ],
-    "wof:lastmodified": 1725207809,
+    "wof:lastmodified": 1725209535,
     "wof:name": "UA2279 (MCO-SFO)",
     "wof:parent_id": 1914600923,
     "wof:placetype": "custom",
